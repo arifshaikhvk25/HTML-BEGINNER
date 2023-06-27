@@ -1,0 +1,57 @@
+<!-- form -> is used to collect input form the user  -->
+<!-- <input type="text" placeholder=" Enter your name"> -->
+<!-- <input type="radio" placeholder="Section">  -->
+<!-- label -->
+<!-- id -> id is unique identifier is used to keep the name we cannot put the same id thats not a good practise -->
+<!-- name is used to check in backend -->
+<!-- textarea  to write a text-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Travel Form</h1>    <!--(37) h1-->
+
+        <form action="form.php">                                              <!--(35) form-->
+            
+            <input type="text" placeholder=" Enter your name"> <br>               <!--(36) input-->  <!--(38) placeholder-->
+
+            <label for="sectiona">                                           <!--(38) label -->
+                
+                <input type="radio" value="Section a" name="section" id="sectiona"> Section A                           <!--(37) type ="radio" value = -->
+
+        </label>
+
+        <label for="sectionb">                                                            <!--(38)-->
+
+            <input type="radio" value="section b" name="section" id="sectionb"> Section B
+
+        </label> <br> <hr>
+        
+        <input type="checkbox" id="canteenfood" name="canteen">              <!--(39) checkbox-->
+        <label for="canteenfood">Canteen Card</label> <br>
+
+        <textarea name="explain" id="explain" placeholder="explain in details" cols="30" rows="10"></textarea> <br>  <!--(40)-->
+
+        <select name="Car" id="Car">          <!--(41)-->
+
+        <option value="no car">select car</option>
+        <option value="audir8">audir8</option>
+        <option value="audirs7">audirs7</option>
+        <option value="audietron">audietron</option>
+        <option value="mercedesmaybach">mercedesmaybach</option>
+
+        </select>
+
+
+        </form>        
+
+    </div>
+</body>
+</html>
